@@ -1,0 +1,636 @@
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+.search {
+    width: 1000px;
+}
+
+.cart:hover {
+    color: yellow;
+}
+
+.shop:hover {
+    color: yellow;
+}
+
+.order:hover {
+    color: yellow;
+}
+
+.account:hover {
+    color: yellow;
+}
+
+.navbar-item {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+button.search {
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius: 0 50px 50px 0;
+    background-color: orange;
+    margin-left: 0;
+    border: none;
+    float: right;
+}
+
+input[type=search] {
+    width: 500px;
+    height: 40px;
+    border-radius: 50px 0 0 50px;
+    border: none;
+}
+
+.navbar-group img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.nav-link {
+    display: inline;
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+    text-decoration: underline
+}
+
+.banner {
+    background-color: rgb(159, 20, 20);
+}
+
+img.banner {
+    width: 100%;
+}
+
+.home-group {
+    background-color: rgb(39, 38, 38);
+    padding-bottom: 3%;
+}
+
+.home-group a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    margin-left: 2%;
+}
+
+.menu {
+    margin-top: 30px;
+    border: 2px rgba(0, 0, 0, 0.436) solid;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.menu-header {
+    background-color: rgb(159, 20, 20);
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+}
+
+.menu-header a {
+    color: white;
+    text-decoration: none;
+}
+
+ul.menu-item {
+    list-style: none;
+}
+
+li.list-item a {
+    color: black;
+    text-decoration: none;
+}
+
+li.list-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px rgba(0, 0, 0, 0.436) solid;
+}
+
+.contact {
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    border: 3px rgb(159, 20, 20) dashed;
+    border-radius: 10px;
+}
+
+.list-item img {
+    height: 24px;
+    width: 24px;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.contact a {
+    color: rgb(159, 20, 20);
+    text-decoration: none;
+}
+
+.contact img {
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.contact p {
+    font-weight: normal;
+    color: black;
+}
+
+.coupon-list {
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.195);
+    width: 100%;
+    height: 160px;
+}
+
+.coupon {
+    margin: 15px;
+    margin-left: 7px;
+    padding: 5px;
+    border: 1px gray solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: 132px;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px gray;
+    border-radius: 5px;
+    font-size: smaller;
+}
+
+.btn-copy {
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(159, 20, 20);
+    color: white;
+    padding: 5px 10px 5px 10px;
+
+}
+
+.coupon-uses {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.featured-product {
+    border: 4px rgb(159, 20, 20) solid;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 912;
+    padding-bottom: 10px;
+    background-color: rgb(159, 20, 20);
+}
+
+.title a {
+    color: white;
+    text-decoration: none;
+}
+
+.title a:hover {
+    color: rgb(155, 43, 43);
+    text-decoration: none;
+}
+
+.title {
+    margin: 10px;
+}
+
+.scroll-container {
+    display: block;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(159, 20, 20)s;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.scroll-zone {
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.scroll-text {
+    color: white;
+    animation-name: scroll;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(500px);
+    }
+
+    100% {
+        transform: translateX(-1000px);
+    }
+}
+
+.product {
+    background-color: white;
+    border-radius: 10px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px rgb(201, 201, 201) solid;
+}
+
+.product img {
+    width: 197.5px;
+    height: 197.5px;
+    border-radius: 10px;
+}
+
+.productimg1 {
+    background-image: url(img/product/primary_1.webp);
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.productimg1:hover {
+    transition: 0.5s;
+    background-image: url(img/product/secondary_1_2.webp);
+}
+
+.productimg2 {
+    background-image: url(img/product/primary_2.webp);
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.productimg2:hover {
+    transition: 0.5s;
+    background-image: url(img/product/secondary_1_2.webp);
+}
+
+.productimg3 {
+    background-image: url(img/product/primary_3.webp);
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.productimg3:hover {
+    transition: 0.5s;
+    background-image: url(img/product/secondary_3.webp);
+}
+
+.productimg4 {
+    background-image: url(img/product/primary_4.webp);
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.productimg4:hover {
+    transition: 0.5s;
+    background-image: url(img/product/secondary_4.webp);
+}
+
+.price-box {
+    width: 114px;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+}
+
+.linethrough {
+    font-size: smaller;
+    text-decoration: line-through;
+}
+
+.discount {
+    font-size: smaller;
+    color: red;
+}
+
+.product-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+button.btn-addtocart {
+    margin: 15px;
+    background-color: rgb(214, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    box-shadow: -1px 2px rgba(0, 0, 0, 0.299);
+}
+
+button.btn-addtocart:hover {
+    background-color: red;
+}
+
+.discount {
+    display: inline;
+}
+
+.product-category {
+    background-color: white;
+    width: 912px;
+    height: 193px;
+    margin: 30px 0px 30px 0px;
+    border-radius: 10px;
+}
+
+.product-category {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.category-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-item img {
+    width: 70px;
+    height: 70px;
+}
+
+a.category-item {
+    color: black;
+    text-decoration: none;
+}
+
+a.category-item:hover img {
+    transition: 0.5s;
+    transform: scale(0.8) rotateZ(-15deg);
+}
+
+a.category-item:hover {
+    color: rgb(159, 20, 20)
+}
+
+.valentine {
+    background-color: white;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.section-header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 10px;
+}
+
+button.btn-category {
+    border-radius: 50px;
+    margin: 10px 5px 10px;
+    font-size: medium;
+    padding: 5px;
+}
+
+.section-header img {
+    margin: 5px;
+}
+
+.section-header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    ;
+}
+
+.section-header a:hover {
+    color: rgb(159, 20, 20)
+}
+
+.hot-feature:hover img {
+    transition: 0.5s;
+    transform: scale(0.95);
+}
+
+.primary {
+    z-index: 1;
+}
+
+.secondary {
+    background-color: white;
+    position: absolute;
+    z-index: 0;
+}
+
+.product:hover .secondary {
+    z-index: 2;
+}
+
+img.icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    z-index: 3;
+}
+
+.frame {
+    z-index: 3;
+    position: absolute;
+    width: 197.5px;
+    height: 197.5px;
+}
+
+.section-footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+a.more {
+    border: 1px rgb(155, 43, 43) solid;
+    color: rgb(155, 43, 43);
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+a.more:hover {
+    color: white;
+    background-color: rgb(155, 43, 43);
+}
+
+.section-banner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.section-banner a:hover img {
+    transform: scale(0.95);
+    transition: 0.5s;
+}
+
+.cupcake {
+    background-color: white;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.service {
+    background: white;
+    padding: 20px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.intel-box {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px gainsboro solid;
+    margin-bottom: 10px;
+}
+
+.intel-box img {
+    border-radius: 10px;
+    width: 150px;
+    height: 100px;
+}
+
+.intel-content {
+    width: 250px;
+    height: 100px;
+}
+
+a.intel-title {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.intel-preview {
+    color: gray;
+}
+
+a.intel-title:hover {
+    color: rgb(159, 20, 20)
+}
+
+.link-subscription {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: auto;
+    margin-top: 20px;
+    padding: 20px;
+    height: 70px;
+}
+
+.linkfanpage a {
+    padding: 10px;
+}
+
+.email-text {
+    color: white;
+}
+
+input[name="subscription"] {
+    border-radius: 25px 0px 0px 25px;
+    width: 236px;
+}
+
+button.subscription {
+    float: right;
+    border-radius: 0px 25px 25px 0px;
+    border: none;
+    background-color: orange;
+    color: white;
+
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+a.phone {
+    color: rgb(33, 108, 199);
+    font-weight: bold;
+}
+
+button#btn-top {
+    width: 50px;
+    height: 50px;
+    border: none;
+    display: none;
+    color: white;
+    background-color: rgb(159, 20, 20);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 160px;
+    right: 10px;
+    z-index: 100;
+}
+
+button#phone {
+    width: 50px;
+    height: 50px;
+    border: none;
+    display: block;
+    color: white;
+    background-color: rgb(159, 20, 20);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    z-index: 100;
+}
+
+button#zalo {
+    width: 50px;
+    height: 50px;
+    border: none;
+    display: block;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 15px;
+    z-index: 100;
+}
+
+button#zalo img {
+    max-width: 50px;
+    height: auto;
+}
